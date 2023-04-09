@@ -21,8 +21,10 @@ function Board (props: BoardProps): JSX.Element {
   }
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: `repeat(${props.size}, ${tileSize})` }}>
-      { board }
+    <div>
+      <div style={{ display: 'grid', gridTemplateColumns: `repeat(${props.size}, ${tileSize})` }}>
+        { board }
+      </div>
     </div>
   )
 }

@@ -5,7 +5,7 @@ class TileProps {
 
 function Tile(props: TileProps): JSX.Element {
     return (
-        <span style={{ backgroundColor: props.color, width: props.size, height: props.size, }}></span>
+        <div style={{ backgroundColor: props.color, width: props.size, height: props.size, }}></div>
     );
 }
 
